@@ -90,6 +90,12 @@ build CMakeFiles/CVSamples.dir/CVIOHandler.cpp.o: CXX_COMPILER__CVSamples_Debug 
   OBJECT_DIR = CMakeFiles/CVSamples.dir
   OBJECT_FILE_DIR = CMakeFiles/CVSamples.dir
 
+build CMakeFiles/CVSamples.dir/CVBitOperate.cpp.o: CXX_COMPILER__CVSamples_Debug /Users/Leo_Liu/Leo_Project/CodecVision/CVSamples/CVBitOperate.cpp || cmake_object_order_depends_target_CVSamples
+  DEP_FILE = CMakeFiles/CVSamples.dir/CVBitOperate.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -std=gnu++14
+  OBJECT_DIR = CMakeFiles/CVSamples.dir
+  OBJECT_FILE_DIR = CMakeFiles/CVSamples.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target CVSamples
@@ -98,7 +104,7 @@ build CMakeFiles/CVSamples.dir/CVIOHandler.cpp.o: CXX_COMPILER__CVSamples_Debug 
 #############################################
 # Link the executable CVSamples
 
-build CVSamples: CXX_EXECUTABLE_LINKER__CVSamples_Debug CMakeFiles/CVSamples.dir/main.cpp.o CMakeFiles/CVSamples.dir/CVEndianHandler.cpp.o CMakeFiles/CVSamples.dir/CVIOHandler.cpp.o
+build CVSamples: CXX_EXECUTABLE_LINKER__CVSamples_Debug CMakeFiles/CVSamples.dir/main.cpp.o CMakeFiles/CVSamples.dir/CVEndianHandler.cpp.o CMakeFiles/CVSamples.dir/CVIOHandler.cpp.o CMakeFiles/CVSamples.dir/CVBitOperate.cpp.o
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk
   OBJECT_DIR = CMakeFiles/CVSamples.dir
   POST_BUILD = :
